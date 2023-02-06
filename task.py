@@ -1,8 +1,6 @@
-print('hello world')
-# Задание номер 1
-print('1', '2', '3', sep='*')
-print('1', '2', '3', '4', sep='^', end='\n')
-# Задание номер 3
-num = int(input('Введите число:\n'))
-result = num - 1
-print(result)
+x = int(input('Введите число:'))
+x1 = x + x
+x2 = x + x + x
+x3 = x + x + x + x
+x4 = x + x + x + x + x
+print(x, x1, x2, x3, x4, sep='---',)
